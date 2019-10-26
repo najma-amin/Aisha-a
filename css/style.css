@@ -1,11 +1,16 @@
-.maincontainer {
+.jumbotron{
   text-align: center;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
-  background-color: hotpink;
-  border-radius: 0.1rem;
+  color: plum;
+  border-radius: inherit;
+  background: url("../images/najma.jpg");
+  display: cover;
 }
+
 }
-.form {
-  width: 50%;
+
+
+.form{
+  text-align:center;
 }

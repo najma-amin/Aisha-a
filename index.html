@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Your Akan Names.</title>
+    <title>BIRTHDAY FORM</title>
+    <link rel="stylesheet" types="text/css" href="css/style.css" />
+    <link rel="stylesheet" types="text/css" href="css/bootstrap.css" />
   </head>
-  <body>
-    <div class="container-fluid">
-          <div class="container">
-          <div class="jumbotron maincontainer">
-           
-                <h1>AKAN NAMING FORM</h1>
-                <p>
-                  This application is structed to help the user to assign noun to their children depending on their gender.The names are derived from
-                  the day of birth, that are bestowed meaning concerning the soul the character of the person, a person is easily recognised in their
-                  community This Webpage generates an Akan name for you, Ghanaian or not.
-                </p>
-                </div>  
-              
-    
-          <div class="form">
-            <h3 class="history">Want to know your Akan Name:</h3>
 
-            <form
-              name="userinput"
-              onsubmit="event.preventDefault(); validateFunction()"
-            >
-              <input type="date" name="date" />
-              <select name="gender" id="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-              <input type="submit" value="Submit" />
-            </form>
-          </div>
-        </div>
+  <body>
+    <div class="container">
+      <div class="jumbotron ">
+        <h1>AKAN NAMING FORM</h1>
+        <p>
+          This application is structed to help the user to assign noun
+          to their children depending on their gender.The names are derived from
+                    the day of birth, that are bestowed meaning concerning the soul
+          the character of the person, a person is easily recognised in their
+                    community This Webpage generates an Akan name for you, Ghanaian or
+          not.
+        </p>
       </div>
     </div>
+
+    <div class="form-group">
+      <form name="ghana-forms">
+        Enter day:<br />
+        <input
+          type="number"
+          name="Enter day"
+          placeholder="DD"
+          id="day"
+          min="1"
+          max="31"
+        /><br />
+        Enter month:<br />
+        <input
+          type="number"
+          name="Enter month"
+          placeholder="MM"
+          id="month"
+          min="1"
+          max="12"
+        /><br />
+        Enter year:<br />
+        <input
+          type="number"
+          name="Enter year"
+          placeholder="YY"
+          id="year"
+          min="1900"
+          max="2019"
+        /><br />
+        <br /><br />
+        Choose your gender:<br />
+        <input type="radio" id="gender" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+        <br />
+        <input type="submit" value="Submit" onclick="result()" />
+      </form>
+    </div>
+
     <script src="js/scripts.js"></script>
   </body>
 </html>
