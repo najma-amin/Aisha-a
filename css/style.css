@@ -1,5 +1,11 @@
 .maincontainer {
   text-align: center;
-  padding: inherit;
-  background ;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  background-color: hotpink;
+  border-radius: 0.1rem;
+}
+}
+.form {
+  width: 50%;
 }
