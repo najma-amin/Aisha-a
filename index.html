@@ -16,13 +16,18 @@
                     the day of birth, that are bestowed meaning concerning the soul
           the character of the person, a person is easily recognised in their
                     community This Webpage generates an Akan name for you, Ghanaian or
-          not.
+          not
         </p>
       </div>
     </div>
 
     <div class="form-group">
-      <form name="ghana-forms">
+      <form
+        name="ghana-forms"
+        name="userinput"
+        onsubmit="event.preventDefault(); 
+      validateFunction()"
+      >
         Enter day:<br />
         <input
           type="number"
@@ -31,6 +36,7 @@
           id="day"
           min="1"
           max="31"
+          required
         /><br />
         Enter month:<br />
         <input
@@ -40,6 +46,7 @@
           id="month"
           min="1"
           max="12"
+          required
         /><br />
         Enter year:<br />
         <input
@@ -49,6 +56,7 @@
           id="year"
           min="1900"
           max="2019"
+          required
         /><br />
         <br /><br />
         Choose your gender:<br />

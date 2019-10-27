@@ -1,16 +1,19 @@
-.jumbotron{
+.jumbotron {
   text-align: center;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
-  color: plum;
   border-radius: inherit;
-  background: url("../images/najma.jpg");
   display: cover;
+  color: blue;
+  width: 100%;
+  background: url("../images/mosque.jpg") no-repeat center center/cover;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
 }
 
-}
-
-
-.form{
-  text-align:center;
+.form-group {
+  text-align: center;
+  margin: 0 auto;
 }
