@@ -14,7 +14,7 @@ This website is designed to help us calculate days of our happybirthday dependin
 
 - Open terminal/command prompt.
 - git clone https://github.com/najma-amin/my-project.git
-- cd moringaschoolprojects
+- cd myip
 - to use atom to open code type atom . or code . for visual studio.
 
 ## Known Bug
@@ -25,8 +25,8 @@ none
 
 - HTML
 - CSS
-- Git
--javascript
+- bootstrap
+- javascript
 
 ## Support and contact details
 
