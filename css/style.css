@@ -1,10 +1,10 @@
-.jumbotron {
+.mystyle {
   text-align: center;
   padding: 1rem 1rem;
   margin-bottom: 1rem;
   border-radius: inherit;
   display: cover;
-  color: blue;
+
   width: 100%;
   background: url("../images/mosque.jpg") no-repeat center center/cover;
 }

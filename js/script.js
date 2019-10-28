@@ -1,49 +1,37 @@
-var maleList = {
+document.getElementById("myalert").style.display = "none";
+function result() {
+  var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-    Sunday : "Kwasi",
-    Monday : "Kwadwo",
-    Tuesday : "Kwabena",
-    Wednesday : "Kwaku",
-    Thursday : "Yaw",
-    Friday :"Kofi",
-    Saturday : "Kwame"
+  var maleNames = [
+    "kwasi",
+    "kwadwa",
+    "kwabena",
+    "kwaku",
+    "yaw",
+    "kofi",
+    "kwame"
+  ];
+  var dayOfTheWeek = ["Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-};
+  var day = document.getElementById("day").value;
+  var month = document.getElementById("month").value;
+  var year = document.getElementById("year").value;
+  var date = new Date(year + "/" + month + "/" + day);
+  var dayOfWeek = date.getDay();
+  var male = document.getElementById("male");
+  var female = document.getElementById("female");
 
-var femaleList = {
-    Sunday : "Akosua",
-    Monday : "Adwoa",
-    Tuesday : "Abenaa",
-    Wednesday : "Akua",
-    Thursday : "Yaa",
-    Friday : "Afua",
-    Saturday : "Ama"
+  console.log(date);
 
+  if (male.checked == true) {
+    document.getElementById("myalert").style.display="block";
+    document.getElementById("dayweek").innerHTML = dayOfTheWeek[dayOfWeek];
+    document.getElementById("akanname").innerHTML = maleNames[dayOfWeek];
+
+  } else if (female.checked == true) {
+    document.getElementById("myalert").style.display="block";
+    document.getElementById("dayweek").innerHTML = dayOfTheWeek[dayOfWeek];
+    document.getElementById("akanname").innerHTML = femaleNames[dayOfWeek];
+  }
+  // return akan;
 }
-var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-function validateFunction(){
-
-    var akan = "" //to receive relevant akan male/female name
-
-    var gender = document.forms["userinput"]["gender"].value;
-
-    var date = document.forms["userinput"]["date"].value;
-
-    var confirmDate = new Date(date); //assign date format
-
-    var confirmDay = confirmDate.getDay();
-
-    if (gender === "Male"){
-        akan = maleNames[confirmDay];
-    } else if (gender === "Female"){
-        akan = femaleNames[confirmDay]
-    } else {
-        alert ("Invalid input. Try again");
-    }
-
-    alert("Your Akan name is " + akan);
-    // return akan;
-}
-
