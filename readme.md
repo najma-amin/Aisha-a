@@ -32,6 +32,5 @@ In case of any problems with the Webpage feel free to reach out via najmaamin10@
 
 ### License
 
-- MIT Licence
-
-Copyright (c) 2019
+- MIT Licence ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+  Copyright (c) 2019
