@@ -8,7 +8,7 @@
 
 ## Description
 
-this my portfolio showcasing , checkout my work below and feel free to get in touch if you want to owrk with me
+This website is designed to help us calculate days of our happybirthday depending on every gender.The application helps to calculate the day according to input detailsof the user. Incase of wrong details the calculator returns an error.
 
 ## Setup/Installation Requirements
 
@@ -26,10 +26,11 @@ none
 - HTML
 - CSS
 - Git
+-javascript
 
 ## Support and contact details
 
-For contact najmaamin10@gmail.com.
+In case of any problems with the Webpage feel free to reach out via najmaamin10@gmail.com
 
 ### License
 
