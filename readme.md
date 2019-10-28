@@ -11,7 +11,7 @@ This website is designed to help us calculate days of our happybirthday dependin
 ## Setup/Installation Requirements
 
 - Open terminal/command prompt.
-- git clone https://github.com/najma-amin/my-project.git
+- git clone https://github.com/najma-amin/myip.git
 - cd myip
 - to use atom to open code type atom . or code . for visual studio.
 
