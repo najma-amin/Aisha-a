@@ -6,7 +6,7 @@
 
 ## Description
 
-This website is designed to help us calculate days of our happybirthday depending on every gender.The application helps to calculate the day according to input detailsof the user. Incase of wrong details the calculator returns an error.
+Akan naming is a culture of the Ghanaian. This webPage is to make it easy for them as well as any other to get embrace the culture and generate their name. It has fill out form that enables to key in the bate of birth and gender and a pop up that confirms the generated Akan name.
 
 ## Setup/Installation Requirements
 
