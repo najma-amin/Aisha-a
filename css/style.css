@@ -6,11 +6,12 @@
   display: cover;
 
   width: 100%;
-  background: url("../images/mosque.jpg") no-repeat center center/cover;
+  background: url("../images/img.jpg") no-repeat center center/cover;
 }
 body {
   margin: 0 auto;
   text-align: center;
+  background: url("../images/114.jpg") no-repeat center center/cover;
 }
 
 .form-group {
