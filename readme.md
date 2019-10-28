@@ -1,6 +1,4 @@
-#AKAN-NAMING-SYSTEM
-
-#### My portfolio website, Dated 18/10/2019
+### AKAN-NAMING-SYSTEM
 
 ## Author
 
